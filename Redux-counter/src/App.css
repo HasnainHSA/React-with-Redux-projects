@@ -1,0 +1,134 @@
+/* defualt styles */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+color: #444;
+background-color: #fefefe;
+background-image: linear-gradient(#80c334 0%, #efda50 100%);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 50px 20px;
+margin: 0;
+min-height: 100vh;
+position: relative;
+}
+
+.wrapper{
+width: 600px;
+max-width: 100%;
+min-height: 500px;
+margin: 20px auto 40px;
+border: 1px solid #eee;
+border-radius: 4px;
+padding: 40px 20px;
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+background-color: #f4f7fc;
+overflow: hidden;
+position: relative;
+}
+
+/* headings style */
+
+h1{
+font-size: 3em;
+text-align: center;
+color: #f65c65;
+font-weight: 800;
+}
+
+h2{
+font-size: 1.5em;
+text-align: center;
+color: #5c5cf6;
+font-weight: 500;
+}
+
+.conuter_con{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 300px;
+max-width: 100%;
+min-height: 150px;
+border: 1px solid #eee;
+margin-left: 8rem;
+border-radius: 4px;
+padding: 30px 10px;
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+background-color: #ececed;
+
+}
+
+
+input{
+font-size: 24px;
+border: 1px solid #ddd; 
+padding: 20px 10px;
+transition: all ease-in 0.25s;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+text-align: center;
+width: 14vh;
+outline: none;
+}
+
+/* buttons */
+
+.plus{
+text-align: center;
+background-color: rgb(34, 161, 224);
+font-weight: 1000; 
+font-size: 1.1rem;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+color: #fff;
+text-decoration: none;
+padding: 24px 20px;
+border-radius: 5px;
+}
+
+.minus{
+text-align: center;
+background-color: rgb(224, 53, 34);
+font-weight: 1000; 
+font-size: 1.1rem;
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+color: #fff;
+text-decoration: none;
+padding: 24px 20px;
+border-radius: 5px;
+}
+
+
+.rest{
+ 
+background-color: rgb(4, 195, 10);
+font-weight: 500; 
+font-size: 1.1rem;
+cursor: pointer;
+top: 2px;
+margin-top: 3rem;
+margin-left: 15rem;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+color: #fff;
+text-decoration: none;
+padding: 14px 20px;
+border-radius: 5px;
+}
+
+/* select style */
+
+.select{
+  font-size: 24px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
