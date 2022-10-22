@@ -1,3 +1,17 @@
+# React-rdux-counter
+simple react-redux-counter that shows state managment using redux for beginners.
+
+
+
+![redux counter](https://user-images.githubusercontent.com/99191648/197327121-33159006-a798-4151-93a0-b403bb5a2a87.PNG)
+
+
+Authentication & Hosting : Netlify
+
+Here you go : <a style="color: blue;" herf="https://redux-counter-apps.netlify.app/#">https://redux-counter-apps.netlify.app/#</a>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
